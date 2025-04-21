@@ -1,18 +1,176 @@
-<!-- NAVIGATION -->
-<nav id="navbar">
-  <div class="container">
-    <a href="#hero" class="logo">CPB</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <!-- Removed: <li><a href="#awards">Awards</a></li> -->
-    </ul>
-    <button id="theme-toggle" aria-label="Toggle theme">
-      <i class="fas fa-moon"></i>
-    </button>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Naga Sathya Manikanta Saikam | Resume</title>
+
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-p1Cm6U6G2kXspgM+6nYg2t9YzU0Bs2V1xGMIOyCRqkLkY6E8Fb8CJECdT5lN3yMcu/J2sSm3H5Vq5yQvuJ4RCw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-theme="light">
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">CPB</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="container hero-content" data-aos="fade-down">
+      <h1>Naga Sathya Manikanta Saikam</h1>
+      <p class="contact-line">
+        <i class="fas fa-map-marker-alt"></i> Saint Louis, MO | 
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:nagasathyamanikanta.saikam@slu.edu">nagasathyamanikanta.saikam@slu.edu</a> | 
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+        <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+      </p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Currently pursuing a Master’s in Information Systems at Saint Louis University, with two years of experience as an Assistant System Engineer at TCS. Always eager to explore new technologies and grow in the field of information systems. Passionate about solving problems, learning continuously, and working in collaborative environments.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Research Interests</h2>
+      <ul class="research-list">
+        <li>Front-End Performance Optimization and Responsive Web Design</li>
+        <li>Artificial Intelligence in User Interfaces (AI-powered UX)</li>
+        <li>Full-Stack Web Development</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <h3>Master of Computer &amp; Information Sciences</h3>
+        <p>
+          Saint Louis University, MO &bull; Jan 2024 – Dec 2025<br />
+          GPA: 3.79 / 4.00
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-bar" data-aos="fade-right" data-level="90%">
+          <i class="fab fa-python"></i>
+          <div class="bar-wrap">
+            <span>Python</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right" data-aos-delay="100" data-level="85%">
+          <i class="fab fa-js"></i>
+          <div class="bar-wrap">
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right" data-aos-delay="200" data-level="80%">
+          <i class="fab fa-react"></i>
+          <div class="bar-wrap">
+            <span>React.js</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right" data-aos-delay="300" data-level="75%">
+          <i class="fas fa-database"></i>
+          <div class="bar-wrap">
+            <span>SQL/NoSQL</span>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+        </div>
+        <!-- Add more skills similarly -->
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Professional Experience</h2>
+      <div class="exp-item">
+        <h3>Assistant System Engineer · Tata Consultancy Services (TCS)</h3>
+        <span class="date">Feb 2022 – Jan 2024</span>
+        <ul>
+          <li>Developed and maintained responsive user interfaces using HTML, CSS, JavaScript, and frameworks like React.js.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt" data-aos="fade-up">
+    <div class="container">
+      <h2>Web Development Projects</h2>
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Technologies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Custom Web Components Library</td>
+            <td>
+              Developed a reusable set of custom UI components using the Web Components standard (Shadow DOM, Custom Elements, and Templates). Designed for modularity, accessibility, and framework-agnostic integration.
+            </td>
+            <td>HTML, JavaScript, CSS Modules, Lit</td>
+          </tr>
+          <tr>
+            <td>Responsive Web Page Login System</td>
+            <td>
+              Created a secure, mobile-friendly login page with form validation, password visibility toggle, and Firebase Authentication. Supported email/password login and Google sign-in.
+            </td>
+            <td>HTML, CSS, JavaScript, Firebase Auth</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
